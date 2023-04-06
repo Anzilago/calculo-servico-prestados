@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+	<title>CALCULADORA</title>
+</head>
+<body>
+	<header id="titulo">
+		<div id="tituloPrincipal">
+			<i class="bi bi-calculator"></i>
+			<h1>CALCULO SERVIÇOS PRESTADOS</h1>
+		</div>
+		<hr>
+	</header>
+	<h2>SERVIÇO HOSPITALAR - TABAELA SUS</h2>
+	<section class="procedimento">
+		<div id="divProcedimento1">
+			<label>Procedimento 01</label>
+			<div>
+				<input type="number" id="codProcedimento1" placeholder="Cód. Procedimento" onkeyup="PressEnter('qtd01')">
+				<input type="number" name="qtd01" id="qtd01" style="width: 30px" placeholder="Qtd." onkeyup="PressEnter('codProcedimento2')">
+				<span id="valorqtd1"></span>
+				<span id="valor01"></span>
+			</div>	
+		</div>
+		<div id="divProcedimento2">
+			<label>Procedimento 02</label>
+			<div>
+				<input type="number" id="codProcedimento2" placeholder="Cód. Procedimento" onkeyup="PressEnter('qtd02')">
+				<input type="number" name="qtd02" id="qtd02" style="width: 30px" placeholder="Qtd." onkeyup="PressEnter('codProcedimento3')">
+				<span id="valorqtd2"></span>
+				<span id="valor02"></span>
+			</div>
+		</div>
+		<div id="divProcedimento3">
+			<label>Procedimento 03</label>
+			<div>
+				<input type="number" id="codProcedimento3" placeholder="Cód. Procedimento" onkeyup="PressEnter('qtd03')">
+				<input type="number" name="qtd03" id="qtd03" style="width: 30px" placeholder="Qtd." onkeyup="PressEnter('codProcedimento4')">
+				<span id="valorqtd3"></span>
+				<span id="valor03"></span>
+			</div>
+		</div>
+		<div id="divProcedimento4">
+			<label>Procedimento 04</label>
+			<div>
+				<input type="number" id="codProcedimento4" placeholder="Cód. Procedimento" onkeyup="PressEnter('qtd04')">
+				<input type="number" name="qtd04" id="qtd04" style="width: 30px" placeholder="Qtd." onkeyup="PressEnter('codProcedimento5')">
+				<span id="valorqtd4"></span>
+				<span id="valor04"></span>
+			</div>	
+		</div>
+		<div id="divProcedimento5">
+			<label>Procedimento 05</label>
+			<div>
+				<input type="number" id="codProcedimento5" placeholder="Cód. Procedimento" onkeyup="PressEnter('qtd05')">
+				<input type="number" name="qtd05" id="qtd05" style="width: 30px" placeholder="Qtd." onkeyup="PressEnter('ortese01')">
+				<span id="valorqtd5"></span>
+				<span id="valor05"></span>
+			</div>	
+		</div>
+	</section>
+
+	<hr>
+
+	<h2>VALORES OPM</h2>
+	<section id="ortese" class="procedimento">
+			<h4>Procedimentos --- TABELA SUS --- NOTA FISCAL SUS</h4>
+			<div class="ortese" id="O1">
+				<div id="divOrtese01">
+					<input type="number" name="ortese01" id="ortese01" placeholder="Código" onkeyup="PressEnter('vlortese01')">
+					<span id="nomeOrtese01"></span>
+					<input type="number" name="vlortese01" id="vlortese01" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese011')">
+					<input type="number" name="vlortese011" id="vlortese011" placeholder="Valor Custo" onkeyup="PressEnter('ortese02')">
+
+				</div>			
+			</div>
+			<div class="ortese" id="O2">
+				<div id="divOrtese02">
+					<input type="number" name="ortese02" id="ortese02" placeholder="Código" onkeyup="PressEnter('vlortese02')">
+					<span id="nomeOrtese02"></span>
+					<input type="number" name="vlortese02" id="vlortese02" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese012')">
+					<input type="number" name="vlortese012" id="vlortese012" placeholder="Valor Custo" onkeyup="PressEnter('ortese03')">
+				</div>			
+			</div>
+			<div class="ortese" id="O3">
+				<div id="divOrtese03">
+					<input type="number" name="ortese03" id="ortese03" placeholder="Código" onkeyup="PressEnter('vlortese03')">
+					<span id="nomeOrtese03"></span>
+					<input type="number" name="vlortese03" id="vlortese03" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese013')">
+					<input type="number" name="vlortese013" id="vlortese013" placeholder="Valor Custo" onkeyup="PressEnter('ortese04')">
+				</div>			
+			</div>
+			<div class="ortese" id="O4">
+				<div id="divOrtese04">
+					<input type="number" name="ortese04" id="ortese04" placeholder="Código" onkeyup="PressEnter('vlortese04')">
+					<span id="nomeOrtese04"></span>
+					<input type="number" name="vlortese04" id="vlortese04" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese014')">
+					<input type="number" name="vlortese014" id="vlortese014" placeholder="Valor Custo" onkeyup="PressEnter('ortese05')">
+				</div>			
+			</div>
+			<div class="ortese" id="O5">
+				<div id="divOrtese05">
+					<input type="number" name="ortese05" id="ortese05" placeholder="Código" onkeyup="PressEnter('vlortese05')">
+					<span id="nomeOrtese05"></span>
+					<input type="number" name="vlortese05" id="vlortese05" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese015')">
+					<input type="number" name="vlortese015" id="vlortese015" placeholder="Valor Custo" onkeyup="PressEnter('ortese06')">
+				</div>			
+			</div>
+			<div class="ortese" id="O6">
+				<div id="divOrtese06">
+					<input type="number" name="ortese06" id="ortese06" placeholder="Código" onkeyup="PressEnter('vlortese06')">
+					<span id="nomeOrtese06"></span>
+					<input type="number" name="vlortese06" id="vlortese06" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese016')">
+					<input type="number" name="vlortese016" id="vlortese016" placeholder="Valor Custo" onkeyup="PressEnter('ortese07')">
+				</div>			
+			</div>
+			<div class="ortese" id="O7">
+				<div id="divOrtese07">
+					<input type="number" name="ortese07" id="ortese07" placeholder="Código" onkeyup="PressEnter('vlortese07')">
+					<span id="nomeOrtese07"></span>
+					<input type="number" name="vlortese07" id="vlortese07" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese017')">
+					<input type="number" name="vlortese017" id="vlortese017" placeholder="Valor Custo" onkeyup="PressEnter('ortese08')">
+				</div>			
+			</div>
+			<div class="ortese" id="O8">
+				<div id="divOrtese08">
+					<input type="number" name="ortese08" id="ortese08" placeholder="Código" onkeyup="PressEnter('vlortese08')">
+					<span id="nomeOrtese08"></span>
+					<input type="number" name="vlortese08" id="vlortese08" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese018')">
+					<input type="number" name="vlortese018" id="vlortese018" placeholder="Valor Custo" onkeyup="PressEnter('ortese09')">
+				</div>			
+			</div>
+			<div class="ortese" id="O9">
+				<div id="divOrtese09">
+					<input type="number" name="ortese09" id="ortese09" placeholder="Código" onkeyup="PressEnter('vlortese09')">
+					<span id="nomeOrtese09"></span>
+					<input type="number" name="vlortese09" id="vlortese09" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese019')">
+					<input type="number" name="vlortese019" id="vlortese019" placeholder="Valor Custo" onkeyup="PressEnter('ortese10')">
+				</div>			
+			</div>
+			<div class="ortese" id="10">
+				<div id="divOrtese10">
+					<input type="number" name="ortese10" id="ortese10" placeholder="Código" onkeyup="PressEnter('vlortese10')">
+					<span id="nomeOrtese10"></span>
+					<input type="number" name="vlortese10" id="vlortese10" placeholder="Valor Tabela" onkeyup="PressEnter('vlortese020')">
+					<input type="number" name="vlortese010" id="vlortese020" placeholder="Valor Custo" onkeyup="PressEnter('')">
+				</div>			
+			</div>
+	</section>
+
+	<hr>
+	<h2>MATERIAIS E MEDICAMENTOS - SALA CIRURGICA</h2>
+	<section class="procedimento">		
+		<div>
+			<label>Valor da taxa</label>
+			<input type="number" name="tx" id="sala">
+			<button onclick="calcular()">CALCULAR</button>
+		</div>		
+	</section>
+
+	<hr>
+	<h2>RESULTADO FINAL</h2>	
+	<section id="total">
+		<div class="procedimento" id="resultado">
+			<H3 id="finalCvd"></H3>
+			<H3 id="finalSc"></H3>
+		</div>
+		
+	</section>
+
+	<script src="dados.js" type="text/javascript"></script>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
